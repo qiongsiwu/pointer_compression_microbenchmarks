@@ -14,7 +14,7 @@ clang -O3 llubenchmark.c -o llubenchmark
 ```
 
 ## Run ## 
-Run with the command 
+Run with the command to run a big enough workload and dump pointer values. 
 ```
 ./llubenchmark -i 1024 -g .333 -d -t -n 1024 -s 1048576 -v
 ```
